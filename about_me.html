@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title>About me</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    header, section, footer {
+        margin: 20px;
+        padding: 20px;
+        border: none solid #ccc    }
+    nav {
+        margin-bottom: 20px;
+    }
+    nav a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: blue;
+    }
+    #scroll-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my Webpage!</h1>
+        <nav>
+            <a href="#biography">Biography</a>
+            <a href="#altschool">AltSchool ID</a>
+            <a href="goals">Goals</a>        
+        </nav>
+    </header>
+    <section id="biography">
+        <h2>Biography</h2>
+        <p> My name is Latifa IGIHOZO, a student at AltSchool's school of Engineering program.
+             I have a passion for technology and coding, and I enjoy learning how to build projects using the latest web technologies.</p>
+    </section>
+    <section id="altschool">
+        <h2>AltSchool ID</h2>
+        <p>My AltSchool ID is:  ALT/SOE/024/0152.
+             Joining AltSchool has been a great opportunity for me to enhance my skills in software engineering and become industry-ready.</p>
+    </section>
+    <section id="goals">
+        <h2>Goals for School of Engineering Program </h2>
+        <p> The reasons why I joined AltSchool is because:- AltSchool offers practical, project-based learning where you can work on real-world challenges and build a strong portfolio.
+- There's access to experienced mentors who guide you throughout your learning journey, providing personalised support.
+- I want to be part of a diverse community of learners and proffesionals, offering collaboration and networking opportunities.
+- AltSchool offers flexibility, allowing tou to learn at your own pace while balancing other commitments.
+- With industry partnerships, AltSchool provides career guidance, helping you connect with job opportunities and internships.
+- The curriculum is designed to equip you with in-demand skills in technology and engineering, enhancing your employability in a competitive jon market.
+            My goal is to become proficient in full-stack development, specifically in the MERN stack, data structures and algorithms, and to contribute to impactfull
+            software projects in the future.
+            I aim to connect with industry proffesionals, mentors, and peers, fostering relationships that can lead to collaborations, internships, or job opportunities.
+            And I want to push myself beyond my comfort zone, continuously learning, adapting and growing as a tech proffesional.
+        </p>
+        </section>
+        <p>Continue <a href="index.html">here</a> for the rest of the assignment.</p>
+        <footer>
+            <p>&copy; 2024 Latifa IGIHOZO, All Rights Reserved.</p>
+        </footer>
+        <button id="scroll-top" onclick="scrollToTop()">Scroll to Top</button>
+        <script>
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth'});
+            }
+        </script>
+</body>
+</html>
